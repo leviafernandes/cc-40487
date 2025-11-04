@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Planet - Protect Our Earth</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f0fdf4;
+            color: #333;
+        }
+
+        header {
+            background: #2e8b57;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .mission {
+            background: #d1f7c4;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .activities {
+            margin-top: 40px;
+        }
+
+        .activity {
+            background: white;
+            border-left: 5px solid #2e8b57;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        form {
+            background: #e8f5e9;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        form input, form textarea, form button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            background: #2e8b57;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        form button:hover {
+            background: #246b43;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2e8b57;
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌍 Green Planet</h1>
+        <p>Together for a cleaner, greener future</p>
+        <nav>
+            <ul>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#activities">Recent Activities</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="mission" class="mission">
+        <h2>Our Mission</h2>
+        <p>
+            Green Planet is a non-profit organization committed to protecting the environment through awareness, 
+            community involvement, and sustainable practices. Our mission is to inspire people to take action 
+            towards a healthier planet by promoting eco-friendly habits and environmental education.
+        </p>
+    </section>
+
+    <section id="activities" class="activities">
+        <h2>Recent Activities</h2>
+
+        <div class="activity">
+            <h3>🌱 Tree Plantation Drive</h3>
+            <p>We organized a tree plantation drive in the city park, planting over 500 native trees with the help of volunteers and local students.</p>
+        </div>
+
+        <div class="activity">
+            <h3>🚯 Beach Clean-Up Campaign</h3>
+            <p>Our volunteers cleaned up 3 km of coastline, collecting over 2 tons of plastic waste and raising awareness about ocean pollution.</p>
+        </div>
+
+        <div class="activity">
+            <h3>🔋 Renewable Energy Workshop</h3>
+            <p>We conducted workshops to educate communities about solar energy solutions and energy conservation techniques.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Green Planet | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
